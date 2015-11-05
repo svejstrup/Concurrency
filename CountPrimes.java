@@ -11,6 +11,6 @@ public class CountPrimes {
 	long count = 0;
 	for(int i = 1; i<10000000; i++)
 	    if(isPrime(i)) count++;
-	System.out.println("Number of primes: " + count);
+	System.out.println("Number of primes is 2: " + count);
     }
 }
