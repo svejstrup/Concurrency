@@ -3,7 +3,6 @@
  */
 public class Test {
     public static long startTime;
-    public static long endTime;
 
     public static void main(String[] args) {
         int numberOfThreads = 4;

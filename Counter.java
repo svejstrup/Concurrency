@@ -4,8 +4,8 @@
 public class Counter {
     private volatile int count = 0;
 
-    public synchronized void count() {
-        count++;
+    public synchronized void count(int i) {
+        count+= i;
         notifyAll();
     }
 

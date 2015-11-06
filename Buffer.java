@@ -6,7 +6,7 @@ public class Buffer {
     private volatile boolean isNotFinished = true;
 
     public synchronized int getCurrentNumber() {
-        currentNumber++;
+        currentNumber+= 100;
         if(currentNumber == 10000000) {
             isNotFinished = false;
         }
