@@ -24,7 +24,5 @@ public class CountPrimes implements Runnable {
             }
         }
         counter.count(count);
-        System.out.println("Number of primes: " + counter.getCount());
-        System.out.println("It took " + (System.nanoTime() - Test.startTime)/1000000 + "ms");
     }
 }
